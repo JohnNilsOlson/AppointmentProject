@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointment Project</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  
+</head>
+<body>
+  <div class = "container">
+    <h1 class="text-center">Appointment Scheduling</h1>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        
+        <form id ="appointmentDetails">
+          <div class = "form-group">
+            <label for="name">Please Enter Your Name</label>
+            <input id = "name" class = "form-control" type = "text">
+          </div>
+          <br>
+          <div class = "form-group">
+            <label for="description">Please Describe Your Issue</label>
+            <input id = "description" class = "form-control" type = "text">
+          </div>
+          <br>
+          <div class = "form-group">
+            <label for="date">Enter Your Preferred Date</label>
+            <input id = "date" class = "form-control" type = "text">
+          </div>
+          <br>
+          <div class = "form-group">
+            <label for="startTime">Please Enter Your Start Time</label>
+            <input id = "startTime" class = "form-control" type = "text">
+          </div>
+          <br>
+          <div class = "form-group">
+            <label for="endTime">Please Enter Your End Time</label>
+            <input id = "endTime" class = "form-control" type = "text">
+          </div>
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+        <br>  
+      </div>
+      <div class="col-md-6" id="output">
+        <h1> Appointment Details</h1>
+        <p>Name: <span class="name1"></span></p>
+        <p>Description: <span class="description1"></span></p>
+        <p>Date: <span class="date1"></span></p>
+        <p>Start Time: <span class="startTime1"></span></p>
+        <p>End Time: <span class="endTime1"></span></p>
+        <h3>Thank you for scheduling an appointment with us!<h3>
+      </div>   
+    </div>  
+  </div>
+</body>
+</html>
